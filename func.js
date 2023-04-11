@@ -1,25 +1,32 @@
-const featuresBlog = document.getElementById('features')
-const companyBlog = document.getElementById('comapny')
-const featureBtn = document.getElementById('features_arrow__down')
-const companyBtn = document.getElementById('comapny_arrow__down')
+const featuresBlog = document.getElementById("features")
+const companyBlog = document.getElementById("comapny")
+const featureBtn = document.getElementById("features_arrow__down")
+const companyBtn = document.getElementById("comapny_arrow__down")
 
-featureBtn.addEventListener('click', () => {
-    if (featuresBlog.classList.contains('display-none')) {
-        featuresBlog.classList.remove('display-none')
+
+
+featuresBlog.style.display = "none";
+
+featureBtn.addEventListener("click", (event) => {
+    if (featuresBlog.style.display == "none") {
+        featuresBlog.style.display = "block";
     }
     else {
-        featuresBlog.classList.add('display-none')
-    }
-})
-companyBtn.addEventListener('click', () => {
-    if (companyBlog.classList.contains('display-none')) {
-        companyBlog.classList.remove('display-none')
-    }
-    else {
-        companyBlog.classList.add('display-none')
+        featuresBlog.style.display = "none";
     }
 })
 
+
+companyBlog.style.display = "none";
+
+companyBtn.addEventListener("click", (event) => {
+    if (companyBlog.style.display == "none") {
+        companyBlog.style.display = "block";
+    }
+    else {
+        companyBlog.style.display = "none";
+    }
+})
 
 
 
