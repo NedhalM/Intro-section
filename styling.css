@@ -128,7 +128,7 @@
   box-shadow: 0 0 10px hsla(0, 0%, 41%, 0.692);
   border-radius: 15px;
   background-color: white;
-  display: none;
+ 
 }
 .display_none ul li {
   margin: 0.7rem;
