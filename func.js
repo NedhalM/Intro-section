@@ -1,7 +1,7 @@
-const featuresBlog = document.getElementById("features")
-const companyBlog = document.getElementById("comapny")
-const featureBtn = document.getElementById("features_arrow__down")
-const companyBtn = document.getElementById("comapny_arrow__down")
+const featuresBlog = document.getElementById("features");
+const companyBlog = document.getElementById("comapny");
+const featureBtn = document.getElementById("features_arrow__down");
+const companyBtn = document.getElementById("comapny_arrow__down");
 
 
 
